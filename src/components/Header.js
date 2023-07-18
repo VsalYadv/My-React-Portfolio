@@ -31,7 +31,7 @@ const socials = [
     url: "https://stackoverflow.com",
   },
 ];
-
+// By using this code, when a user triggers the handleClick function with an anchor value, the corresponding section with the matching id will be scrolled into view smoothly.
 const Header = () => {
   const handleClick = (anchor) => () => {
     const id = `${anchor}-section`;
