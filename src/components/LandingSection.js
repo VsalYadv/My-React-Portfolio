@@ -17,7 +17,7 @@ const LandingSection = () => (
   >
     <VStack spacing={16}>
       <VStack spacing={4}>
-        <img src = "../screenshots/mypic.jpg" >
+        <img src="../images/custom_image.jpg" alt="Custom Image" style={{ maxWidth: '100%', height: 'auto', borderRadius: '50%' }} />
         <Heading size="md" >{greeting}</Heading>
       </VStack>
       <VStack spacing={6}>
