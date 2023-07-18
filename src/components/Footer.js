@@ -14,7 +14,7 @@ const Footer = () => {
           maxWidth="1024px"
           height={16}
         >
-          <p>Pete • © 2022</p>
+          <p>Vishal Yadav • © 2023 Copyright</p>
         </Flex>
       </footer>
     </Box>
