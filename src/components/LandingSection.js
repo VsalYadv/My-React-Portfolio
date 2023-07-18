@@ -1,7 +1,7 @@
 import React from "react";
 import { Avatar, Heading, VStack } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
-
+import MyImage from '../images/mypic.jpg'
 const greeting = "Hello, I am Vishal Yadav";
 const bio1 = "A frontend developer";
 const bio2 = "specialised in React";
@@ -17,7 +17,7 @@ const LandingSection = () => (
   >
     <VStack spacing={16}>
       <VStack spacing={4}>
-        <img src="../screenshots/mypic.jpg" alt="Custom Image" style={{ maxWidth: '100%', height: 'auto', borderRadius: '50%' }} />
+        <img src={MyImage } alt="Custom Image" style={{ maxWidth: '9%', height: 'auto', borderRadius: '50%' }} />
         <Heading size="md" >{greeting}</Heading>
       </VStack>
       <VStack spacing={6}>
